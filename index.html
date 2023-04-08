@@ -14,49 +14,144 @@
   </head>
 
   <body>
-    <nav>
-      <div class="nav-area">
-        <img src="images/logo.svg" width="200" />
-        <div>
-          <ul class="menu">
-            <li class="menu-item"><a href="#" class="menu-link">About</a></li>
+    <div class="page">
+      <!-- <header and menu/> -->
+
+      <div class="header-image">
+        <!-- <div class="header-area"> -->
+        <div class="menu-area">
+          <img src="images/logo.svg" />
+
+          <!-- <div class="menu"> -->
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a href="#" class="menu-link">About</a>
+            </li>
             <li class="menu-item">
               <a href="#" class="menu-link">Services</a>
             </li>
             <li class="menu-item">
               <a href="#" class="menu-link">Projects</a>
             </li>
-            <li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Contact</a>
+            </li>
           </ul>
+          <!-- </div> -->
         </div>
-      </div>
-    </nav>
-
-    <section>
-      <div class="top-img">
-        <div class="top-title">We are creatives</div>
-        <img src="images/icon-arrow-down.svg" width="20px" />
-      </div>
-
-      <div class="card-list">
-        <div class="card-item">111</div>
-
-        <div class="card-item">
-          <img src="./images/desktop/image-transform.jpg" width="200px" />
-          222
+        <div class="header-title">
+          <p>We are creatives</p>
+          <img src="images/icon-arrow-down.svg" width="20px" />
         </div>
+        <!-- </div> -->
       </div>
-    </section>
 
-    <footer>
-      <div>About Services Projects Contact</div>
-    </footer>
+      <!-- <header/> -->
+      <!-- <header class="header">
+        <div class="header-area">
+          <figure
+            class="header-image"
+            style="background-image: url(./images/desktop/image-header.jpg)"
+          >
+            <img src="./images/desktop/image-header.jpg" />
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Jeesun Lee</a>.
+            <div class="header-title">
+              <p>We are creatives</p>
+              <img src="images/icon-arrow-down.svg" width="20px" />
+            </div>
+          </figure>
+        </div>
+      </header> -->
+
+      <!-- <primary/> -->
+      <section class="primary">
+        <ul class="card-list">
+          <div class="box">
+            <li class="card-item">
+              <figure class="card-image" style="background-image: none">
+                <img src="none" />
+                <div class="card-desc">no image, text only</div>
+              </figure>
+            </li>
+
+            <li class="card-item">
+              <figure
+                class="card-image"
+                style="
+                  background-image: url(./images/desktop/image-transform.jpg);
+                "
+              >
+                <img src="./images/desktop/image-transform.jpg" />
+                <div class="card-desc">egg image only</div>
+              </figure>
+            </li>
+          </div>
+          <div class="box">
+            <li class="card-item">
+              <figure
+                class="card-image"
+                style="
+                  background-image: url(./images/desktop/image-stand-out.jpg);
+                "
+              >
+                <img src="./images/desktop/image-stand-out.jpg" />
+                <div class="card-desc">cocktail image only</div>
+              </figure>
+            </li>
+
+            <li class="card-item">
+              <figure class="card-image" style="background-image: none">
+                <img src="none" />
+                <div class="card-desc">no image, text only</div>
+              </figure>
+            </li>
+          </div>
+          <div class="box">
+            <li class="card-item">
+              <figure
+                class="card-image"
+                style="
+                  background-image: url(./images/desktop/image-graphic-design.jpg);
+                "
+              >
+                <img src="./images/desktop/image-graphic-design.jpg" />
+                <div class="card-desc">text on image</div>
+              </figure>
+            </li>
+
+            <li class="card-item">
+              <figure
+                class="card-image"
+                style="
+                  background-image: url(./images/desktop/image-photography.jpg);
+                "
+              >
+                <img src="./images/desktop/image-photography.jpg" />
+                <div class="card-desc">text on image</div>
+              </figure>
+            </li>
+          </div>
+        </ul>
+      </section>
+
+      <!-- <secondary-a /> -->
+      <section class="secondary secondary-a"></section>
+
+      <!-- <secondary-b /> -->
+      <section class="secondary secondary-b"></section>
+
+      <!-- <footer/> -->
+      <footer>
+        <div>About Services Projects Contact</div>
+      </footer>
+
+      <!-- <attribution/> -->
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Jeesun Lee</a>.
+      </div>
     </div>
   </body>
 </html>

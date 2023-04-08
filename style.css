@@ -1,10 +1,13 @@
-body {
+/* body {
   margin: 0;
 }
-nav {
-  min-width: 1440px;
+.page {
+  width: 1440px;
 }
-.nav-area {
+.menu-area {
+  position: absolute;
+  margin: 20px;
+  width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,43 +16,180 @@ nav {
   padding-left: 5rem;
   padding-right: 2rem;
 }
-.menu {
+.menu-list {
   display: flex;
-  /* justify-content: space-around; */
+  overflow: hidden;
+  background-color: #333;
 }
 .menu-item {
-  /* background-color: red; */
+  background-color: red;
   display: flex;
   padding: 0;
   width: 25%;
-  /* list-style-type: none; */
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  list-style-type: none;
 }
-/* .menu-item:hover {
-} */
+.menu-item:hover {
+  background: crimson;
+}
 .menu-link {
   display: block;
   padding: 1em;
   font-size: 1.2rem;
   font-family: "Barlow", sans-serif;
-  color: white;
+  color: black;
   text-decoration: none;
-  /* text-align: center; */
+  text-align: center;
 }
-.top-title {
-  font-family: "Fraunces", serif;
-  font-size: 50px;
-  color: white;
+.menu-link:hover {
+  color: blue;
 }
-.top-img {
-  height: 40em;
-  margin-top: -100px;
-  max-width: 1552px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("./images/desktop/image-header.jpg");
+
+.header-area {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: -100px;
+}
+.header-title {
+  font-family: "Fraunces", serif;
+  font-size: 50px;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+.menu-area {
+  /* position: absolute; */
+  margin: 40px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: transparent; */
+  /* width: 1440px; */
+  padding-left: 3rem;
+  padding-right: 2rem;
+  /* color: white; color: #f2f2f2; color: #f2f2f2; */
+}
+.menu-list {
+  display: flex;
+  overflow: hidden;
+  background-color: transparent;
+  /* color: #f2f2f2; */
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute; */
+  margin: 20px;
+  /* width: auto; */
+  /* padding: 0; */
+  /* width: 25%; */
+  /* float: left; */
+  /* text-align: center; */
+  /* padding: 14px 16px; */
+  /* text-decoration: none; */
+  font-size: 17px;
+  list-style-type: none;
+  font-family: "Fraunces", serif;
+}
+.menu-link {
+  display: block;
+  padding: 0em;
+  font-size: 1.2rem;
+  font-family: "Barlow", sans-serif;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.header-image {
+  /* height: 0; */
+  padding-bottom: 20%;
+  margin-top: -30px;
+  max-width: 1440px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-color: blue; */
+  background-image: url("./images/desktop/image-header.jpg");
+  min-height: 400px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+  position: relative;
+}
+/* .header-area img {
+  display: none;
+} */
+
+.header-title {
+  font-family: "Fraunces", serif;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-item {
+  /* margin-bottom: 0rem; */
+  list-style-type: none;
+  width: 50%;
+}
+.card-image {
+  height: 0;
+  padding-bottom: 60%;
+  /* padding-left: 60%; */
+  background-color: rgb(240, 233, 210);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card-item img {
+  display: none;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.card-desc {
+  padding: 1em;
+  background-color: red;
+  list-style-type: none;
+}
+.box {
+  display: flex;
+  /* justify-content: center;
+  text-align: center; */
+}
+@media (max-width: 375px) {
+  .page {
+    background-color: teal;
+  }
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1rem;
+
+    /* justify-content: space-between; */
+  }
+  .card-item {
+    width: 49%;
+    padding: 0 1rem;
+  }
 }
