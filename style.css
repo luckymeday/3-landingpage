@@ -133,6 +133,18 @@
   display: none;
 } */
 
+.font-fra {
+  font-family: "Fraunces", serif;
+  /* color: hsl(167, 40%, 24%);
+  color: hsl(198, 62%, 26%);
+  color: hsl(168, 34%, 41%); */
+  color: hsl(171, 6%, 21%);
+}
+.font-bar {
+  font-family: "Barlow", sans-serif;
+  color: hsl(171, 6%, 21%);
+}
+
 .header-title {
   font-family: "Fraunces", serif;
   font-size: 50px;
@@ -142,11 +154,15 @@
   align-items: center;
   flex-direction: column;
 }
-
+.card-list {
+  margin: 0;
+  padding: 0;
+}
 .card-item {
   /* margin-bottom: 0rem; */
   list-style-type: none;
   width: 50%;
+  margin: 0;
 }
 .card-image {
   height: 0;
@@ -156,6 +172,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0;
+  position: relative;
 }
 .card-item img {
   display: none;
@@ -164,10 +182,25 @@
 }
 
 .card-desc {
-  padding: 1em;
-  background-color: red;
+  /* padding: 1em; */
+  /* background-color: red; */
   list-style-type: none;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* position: relative; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+/* .desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
 .box {
   display: flex;
   /* justify-content: center;
@@ -180,6 +213,7 @@
   .box {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .card-list {
     display: flex;
