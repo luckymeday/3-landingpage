@@ -1,168 +1,24 @@
-/* body {
-  margin: 0;
-}
 .page {
-  width: 1440px;
-}
-.menu-area {
-  position: absolute;
-  margin: 20px;
-  width: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
-  width: 1440px;
-  padding-left: 5rem;
-  padding-right: 2rem;
-}
-.menu-list {
-  display: flex;
-  overflow: hidden;
-  background-color: #333;
-}
-.menu-item {
-  background-color: red;
-  display: flex;
-  padding: 0;
-  width: 25%;
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  list-style-type: none;
-}
-.menu-item:hover {
-  background: crimson;
-}
-.menu-link {
-  display: block;
-  padding: 1em;
-  font-size: 1.2rem;
-  font-family: "Barlow", sans-serif;
-  color: black;
-  text-decoration: none;
-  text-align: center;
-}
-.menu-link:hover {
-  color: blue;
-}
-
-.header-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: -100px;
-}
-.header-title {
-  font-family: "Fraunces", serif;
-  font-size: 50px;
-  color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */
-/* body {
-  width: 1440px;
-} */
-.page {
-  /* width: 1440px;
-  padding: 10px;
-  margin-bottom: 60px; Height of the footer */
   min-height: calc(100vh - 10rem);
 }
-.footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  height: 10rem;
-  /* width: 1440px; */
-  /* height: 100px; */
-  /* border: red solid 5px; */
-  /* padding: 5rem; */
-  /* padding-bottom: 5rem; */
-
-  /* position: fixed; */
-  /* left: 0px; */
-  /* bottom: 0px; */
-  /* height: 30px;
-    width: 100%;
-    background: #999; */
-  /* 
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px; Height of the footer */
-  background: rgb(80, 212, 195);
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-}
-.footer-logo {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-.footer-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style-type: none;
-
-  /* padding-bottom: 30px; */
-}
-.footer-item {
-  padding: 30px;
-  font-family: "Barlow", sans-serif;
-  font-size: 20px;
-  color: white;
-}
-.footer-sns {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-
-  /* margin-top: 50px;
-  margin-bottom: 50px; */
-}
-.icon-style {
-  width: 5px;
-  padding: 10px;
-}
 .menu-area {
-  /* position: absolute; */
   margin: 40px;
   width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: transparent; */
-  /* width: 1440px; */
   padding-left: 3rem;
   padding-right: 2rem;
-  /* color: white; color: #f2f2f2; color: #f2f2f2; */
 }
 .menu-list {
   display: flex;
   overflow: hidden;
   background-color: transparent;
-  /* color: #f2f2f2; */
 }
 .menu-item {
   display: flex;
   justify-content: space-between;
-  /* position: absolute; */
   margin: 20px;
-  /* width: auto; */
-  /* padding: 0; */
-  /* width: 25%; */
-  /* float: left; */
-  /* text-align: center; */
-  /* padding: 14px 16px; */
-  /* text-decoration: none; */
   font-size: 17px;
   list-style-type: none;
   font-family: "Fraunces", serif;
@@ -177,21 +33,14 @@
   text-align: center;
 }
 .header-image {
-  /* height: 0; */
   padding-bottom: 20%;
   margin-top: -30px;
   max-width: 1440px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  /* background-color: blue; */
   background-image: url("./images/desktop/image-header.jpg");
   min-height: 400px;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* flex-direction: column; */
   position: relative;
 }
 /* .header-area img {
@@ -199,9 +48,6 @@
 } */
 .font-fra {
   font-family: "Fraunces", serif;
-  /* color: hsl(167, 40%, 24%);
-  color: hsl(198, 62%, 26%);
-  color: hsl(168, 34%, 41%); */
   color: hsl(171, 6%, 21%);
 }
 .font-bar {
@@ -221,17 +67,17 @@
   margin: 0;
   padding: 0;
 }
+.box {
+  display: flex;
+}
 .card-item {
-  /* margin-bottom: 0rem; */
   list-style-type: none;
-
   width: 50%;
   margin: 0;
 }
 .card-image {
   height: 0;
   padding-bottom: 60%;
-  /* padding-left: 60%; */
   background-color: rgb(240, 233, 210);
   background-repeat: no-repeat;
   background-position: center;
@@ -247,30 +93,11 @@
   object-fit: cover;
 }
 .card-desc {
-  /* padding: 1em; */
-  /* background-color: red; */
   list-style-type: none;
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* position: relative; */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-/* .desc {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-.box {
-  display: flex;
-  /* padding-top: 5em; */
-  /* justify-content: center;
-  text-align: center; */
 }
 .client-top {
   font-family: "Fraunces", serif;
@@ -281,24 +108,18 @@
   list-style-type: none;
   margin-bottom: -1em;
 }
-
 .client-list {
-  /* border: red solid 1px; */
   margin: 0;
   padding: 0;
 }
 .client-item {
-  /* margin-bottom: 0rem; */
   border: yellow solid 3px;
   list-style-type: none;
   width: 33.33333%;
   display: flex;
-  /* flex-direction: column; */
   margin: 0;
 }
 .client-image {
-  /* border: red solid 1px; */
-  /* height: 0; */
   padding-bottom: 10%;
   padding-top: 20%;
   padding-left: 20%;
@@ -308,60 +129,25 @@
   background-position: center;
   background-size: cover;
   margin: 0;
-  /* position: absolute; */
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 .client-desc {
   flex: 1 1 auto;
-  /* padding: 1em; */
-  /* background-color: red; */
-  /* border: blue solid 1px; */
   list-style-type: none;
-
-  /* border: red solid 1px; */
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* position: relative; */
-  /* position: absolute; */
-  /* margin-left: 50px; */
   text-align: center;
   margin: 0;
-  /* top: 25%; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
 }
-/* .client-image { */
-/* height: 0; */
-/* padding-bottom: 60%; */
-/* padding-left: 60%; */
-/* background-color: rgb(240, 233, 210); */
-/* background-repeat: no-repeat; */
-/* background-position: center; */
-/* background-size: cover; */
-/* margin: 0; */
-/* position: relative; */
-/* } */
 .client-image img {
   border-radius: 50%;
   width: 20%;
 }
 .food-box {
   display: flex;
-  /* border: yellowgreen solid 6px; */
 }
 .food-list {
-  /* display: flex; */
   margin: 0;
-
   padding: 0;
-  /* border: blue solid 1px; */
 }
 .food-item {
-  /* margin-bottom: 0rem; */
   border: blue solid 1px;
   list-style-type: none;
   width: 375px;
@@ -370,48 +156,50 @@
 }
 .food-item img {
   display: none;
-  /* min-width: 100%; */
-  /* min-height: 100%; */
-  /* object-fit: cover; */
 }
 .food-image {
-  /* border: red solid 1px; */
-  /* height: 0; */
   padding-bottom: 60%;
-  /* padding-left: 60%; */
   background-color: rgb(240, 233, 210);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0;
   min-width: 100%;
-  /* min-height: 100%; */
-  /* width: 375px; */
   height: 55.5%;
   position: relative;
   object-fit: cover;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 .footer {
-  /* height: 100px; */
-  /* border: red solid 5px; */
-  /* padding: 5rem; */
-  /* padding-bottom: 5rem; */
-
-  /* position: fixed; */
-  /* left: 0px; */
-  /* bottom: 0px; */
-  /* height: 30px;
-  width: 100%;
-  background: #999; */
-
-  /* position: absolute; */
-  /* bottom: 0; */
-  /* width: 100%; */
-  /* height: 60px; Height of the footer */
-  /* background: #6cf; */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  height: 10rem;
+  background: rgb(80, 212, 195);
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.footer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.footer-item {
+  padding: 30px;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.footer-sns {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.icon-style {
+  width: 5px;
+  padding: 10px;
 }
 @media (max-width: 375px) {
   .page {
@@ -426,8 +214,6 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 1rem;
-
-    /* justify-content: space-between; */
   }
   .card-item {
     width: 49%;
